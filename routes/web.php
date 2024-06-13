@@ -15,15 +15,18 @@
    return view('auth.login');
 });*/
 
-Route::get('/', function () {
-   return view('public/index');
-});
+// Route::get('/', function () {
+//    return view('public/index');
+// });
 
-Route::get('/assam-map', function () {
-    return view('assam-map');
-})->name('assam-map');
+// Route::get('/assam-map', function () {
+//    return view('assam-map');
+// })->name('assam-map');
 
-Route::get('/msg_sent/{mobile}/{msg}','Admin\Grievance\AdminGrievanceController@msg_sent');
+Route::get('/', 'Home\HomepageController@index');
+Route::get('/assam-map', 'Home\HomepageController@assamMap')->name('assam-map');
+
+Route::get('/msg_sent/{mobile}/{msg}', 'Admin\Grievance\AdminGrievanceController@msg_sent');
 Auth::routes();
 
 //Route::post('/loginwithdata', 'Auth\RemoteLoginController@loginWithUsername')->name('loginwithdata');

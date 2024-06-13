@@ -1,0 +1,265 @@
+.navbar .dropdown-menu a {
+    padding: 10px;
+    font-size: 10pt;
+    font-weight: 300;
+    color: #000;
+}
+a {
+    font-size: 10pt;
+}
+.back {
+    webkit-box-shadow: 1px 3px 3px 3px rgba(209,209,209,1);
+    -moz-box-shadow: 1px 3px 3px 3px rgba(209,209,209,1);
+    box-shadow: 1px 3px 15px 2px rgba(209,209,209,1);
+    background-color:rgba(255, 255, 255, 0.75);
+    padding:35px 25px;margin:55px 0px;
+}
+h1 {
+    webkit-box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    font-size:23pt;
+    font-weight:bold;
+    font-family:'Agency FB';
+    color:#fff;
+    padding:7.5px;
+    margin:15px 0px 0px 0px;
+}
+h2 {
+    font-size:18.5pt;
+    font-weight:bold;
+    margin-top:0;
+    color:#367fed;
+}
+.sections {
+    webkit-box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    box-shadow: 1px 1px 5px 1px rgba(209,209,209,1);
+    background-color:rgba(240, 240, 240, 0.85);
+    padding:25px 25px;margin:55px 0px;
+}
+button {
+    font-size:15pt;
+}
+.dropdown-toggle {
+    font-size:10pt;
+}
+.dropdown-menu {
+    border-radius:1px;
+}
+.btn, label {
+    font-size:12pt;
+    color:#444;
+}
+.dropdown {
+    background:rgba(0,0,0,0);
+}
+.select-margin{
+    margin-top:-3.5px;
+}
+.btn{
+    padding: 6px 12px;
+}
+.btn-info.dropdown-toggle {
+    left:-4px;
+    border:2px solid #747474;
+    background-color: #dedede !important;
+}
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:hover, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:hover, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:hover, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:hover, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:hover, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
+    color: #333;
+}
+.Zebra_DatePicker_Icon {
+    width: 45px;
+}
+span.Zebra_DatePicker_Icon {
+    right:10px;
+}
+table th, table td {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #8f8f8f;
+    font-size: 10pt;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>td {
+    font-size: 12pt;
+    font-weight:bold;
+    font-family:'Roboto';
+    color:#5f5f5f;
+    vertical-align: middle;
+    padding: 4px 4px 1px 4px;
+    border-top: 0px solid #ddd;
+}
+.table-bordered>thead>tr>th {
+    background-color:#3a9fff;
+    color:white;
+}
+table.table-hover tbody tr:hover {
+    transition: .5s;
+    background-color: rgba(200, 200, 200, 0.75);
+}
+.dataTables_wrapper .dataTables_filter input {
+    padding: 0px 5px;
+    margin-top: 4px;
+}
+.form-control, button, input, select, textarea {
+    height:40px;
+    border: 1.5px solid #fff;
+    color:#444;
+    font-size: 12pt;
+    font-weight: bold;
+    line-height: inherit;
+    //background-color:rgba(240, 240, 240, 0.85);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0);
+    padding:2px;
+}
+.pt-3-half {
+    padding-top: -1.4rem;
+}
+.f-strip {
+    font-size: 1.1rem;
+}
+
+/*******************************Animated Checkbox***********************************/
+.checkbox-animated {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox-animated .checkbox {
+display: none;
+}
+.checkbox-animated .checkbox:disabled ~ label .box {
+    border-color: #777;
+    background-color: #E6E6E6;
+}
+.checkbox-animated .checkbox:disabled ~ label .check {
+border-color: #777;
+}
+.checkbox-animated .checkbox:checked ~ label .box {
+    opacity: 0;
+    -webkit-transform: scale(0) rotate(-180deg);
+    -moz-transform: scale(0) rotate(-180deg);
+    transform: scale(0) rotate(-180deg);
+}
+.checkbox-animated .checkbox:checked ~ label .check {
+opacity: 1;
+-webkit-transform: scale(1) rotate(45deg);
+-moz-transform: scale(1) rotate(45deg);
+transform: scale(1) rotate(45deg);
+}
+.checkbox-animated label {
+cursor: pointer;
+padding-left: 28px;
+font-weight: normal;
+margin-bottom: 0;
+}
+.checkbox-animated label span {
+display: block;
+position: absolute;
+left: 0;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+transition-duration: 0.3s;
+}
+.checkbox-animated label .box {
+border: 2px solid #6a6a6a;
+height: 20px;
+width: 20px;
+z-index: 888;
+-webkit-transition-delay: 0.2s;
+-moz-transition-delay: 0.2s;
+transition-delay: 0.2s;
+}
+.checkbox-animated label .check {
+top: -7px;
+left: 6px;
+width: 12px;
+height: 24px;
+border: 2px solid #3771e9;
+border-top: none;
+border-left: none;
+opacity: 0;
+z-index: 888;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+transform: rotate(180deg);
+-webkit-transition-delay: 0.3s;
+-moz-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+.checkbox-animated-inline {
+position: relative;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.checkbox-animated-inline .checkbox {
+display: none;
+}
+.checkbox-animated-inline .checkbox:disabled ~ label .box {
+border-color: #777;
+background-color: #E6E6E6;
+}
+.checkbox-animated-inline .checkbox:disabled ~ label .check {
+border-color: #777;
+}
+.checkbox-animated-inline .checkbox:checked ~ label .box {
+opacity: 0;
+-webkit-transform: scale(0) rotate(-180deg);
+-moz-transform: scale(0) rotate(-180deg);
+transform: scale(0) rotate(-180deg);
+}
+.checkbox-animated-inline .checkbox:checked ~ label .check {
+opacity: 1;
+-webkit-transform: scale(1) rotate(45deg);
+-moz-transform: scale(1) rotate(45deg);
+transform: scale(1) rotate(45deg);
+}
+.checkbox-animated-inline label {
+cursor: pointer;
+padding-left: 28px;
+font-weight: normal;
+margin-bottom: 0;
+}
+.checkbox-animated-inline label span {
+display: block;
+position: absolute;
+left: 0;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+transition-duration: 0.3s;
+}
+.checkbox-animated-inline label .box {
+border: 2px solid #000;
+height: 20px;
+width: 20px;
+z-index: 888;
+-webkit-transition-delay: 0.2s;
+-moz-transition-delay: 0.2s;
+transition-delay: 0.2s;
+}
+.checkbox-animated-inline label .check {
+top: -7px;
+left: 6px;
+width: 12px;
+height: 24px;
+border: 2px solid #BADA55;
+border-top: none;
+border-left: none;
+opacity: 0;
+z-index: 888;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+transform: rotate(180deg);
+-webkit-transition-delay: 0.3s;
+-moz-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+.checkbox-animated-inline.checkbox-animated-inline {
+display: inline-block;
+}
+.checkbox-animated-inline.checkbox-animated-inline + .checkbox-animated-inline {
+margin-left: 10px;
+}
+/*******************************Animated Checkbox***********************************/
